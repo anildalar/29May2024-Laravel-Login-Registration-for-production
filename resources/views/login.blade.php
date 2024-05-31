@@ -16,7 +16,6 @@
         </div>
     @endif
     <form method="POST" action="/login">
-
         @csrf
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
